@@ -1,17 +1,18 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import Logo from './components/logo'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <Logo />,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/gayashan4lk',
   },
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/gayashan4lk/gayya-s-dev-tips',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Build with ❤️ by Gayya @ 2024',
   },
 }
 
